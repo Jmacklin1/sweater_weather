@@ -7,8 +7,8 @@
         attr_reader :url, :zipcode
 
         def initialize 
-        @url = "http://api.weatherapi.com/v1/current.json?key=4c90dc8814f04c8e929205100202811&q=
-    "
+        @url = "http://api.weatherapi.com/v1/current.json?key="ENV[Weather_Key]"
+    
 
   
 
